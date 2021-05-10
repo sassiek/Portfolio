@@ -33,10 +33,12 @@ section {
 
 .nav-bar a {
 	text-decoration: none;
+	color: black;
 }
 
 main {
-	background-color:#747c7c;
+	background-color:#474c58;
+	color: #ffffff;
 	padding: 15px;
 }
 
