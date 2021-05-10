@@ -17,7 +17,7 @@ section {
 .sw-logo {
 	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 2rem;
-	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .nav-bar {
