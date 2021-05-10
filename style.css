@@ -1,11 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
 section {
-	background-color: #c5e0dd;
+	background-color: #c0b1e1;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bar {
+	word-spacing: 0.5rem;
 }
 
 main {
-	background-color:#5a636c;
+	background-color:#747c7c;
+	padding: 15px;
 }
 
 footer {
-	background-color: #c5e0dd;
+	background-color: #c0b1e1;
+	padding: 10px;
 }
