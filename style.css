@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Tahoma;
+}
+
 section {
 	background-color: #c0b1e1;
 	padding: 20px;
@@ -9,16 +13,38 @@ section {
 	justify-content: center;
 }
 
+
+.sw-logo {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2rem;
+	align-items: flex-start;
+}
+
 .nav-bar {
 	word-spacing: 0.5rem;
 }
+
 
 main {
 	background-color:#747c7c;
 	padding: 15px;
 }
 
+.portfolio {
+	display: grid;
+	grid: 270px / auto auto auto;
+}
+
+.container {
+	width: 250px;
+	height: 250px;
+	background: rgba(192,177,225, 0.55);
+	border-radius: 50%;
+}
+
 footer {
 	background-color: #c0b1e1;
 	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto;
 }
