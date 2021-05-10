@@ -4,26 +4,36 @@
 
 body {
 	font-family: Tahoma;
+	margin: 0px;
+	padding: 0px;
 }
 
 section {
 	background-color: #c0b1e1;
 	padding: 20px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 
 .sw-logo {
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 2rem;
-	justify-content: flex-start;
+	font-size: 2.5rem;
+	text-indent: 20px;
 }
 
 .nav-bar {
-	word-spacing: 0.5rem;
+	word-spacing: 0.8rem;
+	padding: 20px 10px 10px 5px;
 }
 
+.nav-bar a[href*="about-me.html"] {
+	word-spacing: 0.1rem;
+}
+
+.nav-bar a {
+	text-decoration: none;
+}
 
 main {
 	background-color:#747c7c;
