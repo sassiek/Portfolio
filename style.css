@@ -45,15 +45,25 @@ main {
 .portfolio {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 10px;
+	gap: 20px;
 	background-color: #474c58;
+	margin: 1%%;
 }
 
 .portfolio .container {
-	width: 250px;
-	height: 250px;
+	margin: auto;
+	width: 270px;
+	height: 270px;
 	background: rgba(192,177,225, 0.55);
-	border-radius: 50%;
+	border: 5px solid #c5e0dd;
+	padding: 7px;
+	
+}
+
+.container .title-project {
+	font-size: 1.1rem;
+	text-align: center;
+	
 }
 
 footer {
