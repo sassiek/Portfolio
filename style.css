@@ -44,10 +44,12 @@ main {
 
 .portfolio {
 	display: grid;
-	grid: 270px / auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	background-color: #474c58;
 }
 
-.container {
+.portfolio .container {
 	width: 250px;
 	height: 250px;
 	background: rgba(192,177,225, 0.55);
