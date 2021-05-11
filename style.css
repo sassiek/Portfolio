@@ -47,19 +47,6 @@ main {
 	height: 800px;
 }
 
-.home-background-vid {
-	position: absolute;
-	min-width: 100%; 
-	min-height: 100%;
-	z-index: auto;
-	opacity: 50%;
-}
-
-.text-overlay {
-	position: relative;
-	z-index: 1;
-}
-
 .titlepage {
 	font-family: 'Montserrat', sans-serif;
 	margin: 5%;
@@ -92,6 +79,10 @@ main {
 	display: flex;
 	justify-content: space-evenly;
 	gap: 5%;
+}
+
+.saskia-image {
+	width: 50%;
 }
 
 .portfolio {
