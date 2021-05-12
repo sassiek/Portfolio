@@ -47,6 +47,17 @@ main {
 	height: 800px;
 }
 
+.home-background-img {
+	position: absolute;
+	z-index: 0;
+	left: 0px;
+	margin-top: -50px;
+}
+
+.text-overlay {
+	position: relative;
+	z-index: 1;
+}
 .titlepage {
 	font-family: 'Montserrat', sans-serif;
 	margin: 5%;
@@ -108,6 +119,15 @@ main {
 	font-size: 1.1rem;
 	text-align: center;
 	
+}
+
+.contact-section {
+	display: flex;
+	justify-content: space-around;
+}
+
+.image-contact {
+	width: 40%;
 }
 
 footer {
