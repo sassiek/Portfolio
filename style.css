@@ -51,21 +51,21 @@ main {
 	height: 800px;
 }
 
-.home-background-img {
-	position: absolute;
-	z-index: 0;
-	left: 0px;
-	margin-top: -50px;
-}
 
-.text-overlay {
-	position: relative;
-	z-index: 1;
-}
 .titlepage {
 	font-family: 'Montserrat', sans-serif;
 	margin: 5%;
 	font-size: 1.75rem;
+	display: flex;
+	
+}
+
+.title-format p{
+	border: 2px solid #c0b1e1;
+	padding: 20px;
+	margin: 20px;
+	width: 10%;
+	flex: wrap;
 }
 
 .titlepage h2 {
@@ -82,7 +82,6 @@ main {
 	font-size: 1.75rem;
 	font-family: 'Montserrat', sans-serif;
 	padding: 70px 35px;
-	margin-left: 70%;
 	border: 2px solid white;
 }
 
