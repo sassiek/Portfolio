@@ -209,15 +209,23 @@ main {
 	
 }
 
-/*.contact-col {
-	border: 2px solid black;
-	border-radius: 50%;
-	height: 100px;
-	width: 100px;
-}*/
+.contact-section {
+	
+}
+
+.contact-col {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid white;
+	background-color: #c0b1e1;
+	display: grid;
+	align-content: center;
+}
+
 
 .image-contact {
 	width: 400px;
+	margin: 10px;
 }
 
 footer {
@@ -283,7 +291,7 @@ footer {
 		width: 100%;
 		margin: 10px;
 	}
-		
+	
 	.image-contact {
 		max-width: 100%;
 		max-height: 100%;
