@@ -56,20 +56,65 @@ main {
 	font-family: 'Montserrat', sans-serif;
 	margin: 5%;
 	font-size: 1.75rem;
+}
+
+.title-format {
 	display: flex;
-	
+	margin: 25px;
 }
 
-.title-format p{
-	border: 2px solid #c0b1e1;
-	padding: 20px;
+.title-letter {
+	border: 4px solid #ffffff;
+	padding: 17px;
 	margin: 20px;
-	width: 10%;
-	flex: wrap;
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	color: black;
 }
 
-.titlepage h2 {
-	font-size: 1.5rem;
+#title-letter-1 {
+	background-color: #736a87;
+}
+
+#title-letter-1:hover {
+	background-color: #c5e0dd;
+}
+
+#title-letter-2 {
+	background-color: #9a8eb4;
+}
+
+#title-letter-3 {
+	background-color: #c0b1e1;
+}
+
+#title-letter-4 {
+	background-color: #cdc1e7;
+}
+
+#title-letter-5 {
+	background-color: #d9d0ed;
+}
+
+#title-letter-6 {
+	background-color: #e6e0f3;
+}
+
+#title-letter-7 {
+	background-color: #6a7e87;
+}
+
+#title-letter-8 {
+	background-color: #8ea8b4;
+}
+
+#title-letter-9 {
+	background-color: #b1d2e1;
+}
+
+#title-letter-10 {
+	background-color: #c8e0ea;
 }
 
 .portfolio-link {
@@ -82,7 +127,7 @@ main {
 	font-size: 1.75rem;
 	font-family: 'Montserrat', sans-serif;
 	padding: 70px 35px;
-	border: 2px solid white;
+	border: 2px solid #ffffff;
 }
 
 .portfolio-link:hover {
@@ -96,7 +141,7 @@ main {
 }
 
 .saskia-image {
-	width: 50%;
+	width: 400px;
 }
 
 .portfolio {
@@ -125,12 +170,12 @@ main {
 }
 
 .contact-section {
-	display: flex;
-	justify-content: space-around;
 }
 
+
 .image-contact {
-	width: 40%;
+	width: 400px;
+	margin-left: 0px;
 }
 
 footer {
