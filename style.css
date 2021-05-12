@@ -36,6 +36,10 @@ section {
 	color: black;
 }
 
+.top-bar .hamburger {
+	display: none;
+}
+
 main {
 	background-color:#474c58;
 	color: #ffffff;
@@ -136,4 +140,32 @@ footer {
 	display: grid;
 	grid-template-columns: auto auto;
 	justify-content: space-between;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+	
+	nav a {
+		display: none;
+	}
+	
+	.top-bar .hamburger {
+		display: block;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+		border: 2px solid #474c58;
+		border-radius: 10%;
+		padding: auto 10px;
+		background-color: #d2e1b1;
+	}
+	
+	.top-bar .hamburger:hover {
+		background-color: white;
+	}
+	
+	main {
+		flex-wrap: wrap;
+	}
 }
