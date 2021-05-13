@@ -1,0 +1,389 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+section {
+	background-color: #c0b1e1;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sw-logo {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2.5rem;
+	text-indent: 20px;
+}
+
+.nav-bar {
+	word-spacing: 0.8rem;
+	padding: 20px 10px 10px 5px;
+}
+
+.nav-bar a[href*="about-me.html"] {
+	word-spacing: 0.1rem;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.top-bar .hamburger {
+	display: none;
+}
+
+main {
+	background-color: #474c58;
+	color: #ffffff;
+	padding: 5%;
+}
+
+.homepage {
+	width: 100%;
+}
+
+.titlepage {
+	margin: 5%;
+	font-size: 1.75rem;
+	position: relative;
+}
+
+.title-format {
+	display: flex;
+	margin: 25px;
+}
+
+.title-letter {
+	border: 4px solid #ffffff;
+	padding: 17px;
+	margin: 20px;
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	color: #000000;
+}
+
+#title-letter-1 {
+	background-color: #736a87;
+}
+
+#title-letter-1:hover {
+	background-color: #e6f0f5;
+}
+
+#title-letter-2 {
+	background-color: #9a8eb4;
+}
+
+#title-letter-2:hover {
+	background-color: #cee1ea;
+}
+
+#title-letter-3 {
+	background-color: #c0b1e1;
+}
+
+#title-letter-3:hover {
+	background-color: #b5d2e0;
+}
+
+#title-letter-4 {
+	background-color: #cdc1e7;
+}
+
+#title-letter-4:hover {
+	background-color: #8aa4b0;
+}
+
+#title-letter-5 {
+	background-color: #d9d0ed;
+}
+
+#title-letter-5:hover {
+	background-color: #79909a;
+}
+
+#title-letter-6 {
+	background-color: #e6e0f3;
+}
+
+#title-letter-6:hover {
+	background-color: #57676e;
+}
+
+#title-letter-7 {
+	background-color: #6a7e87;
+}
+
+#title-letter-7:hover {
+	background-color: #e0e1f3;
+}
+
+#title-letter-8 {
+	background-color: #8ea8b4;
+}
+
+#title-letter-8:hover {
+	background-color: #b1b5e1;
+}
+
+#title-letter-9 {
+	background-color: #b1d2e1;
+}
+
+#title-letter-9:hover {
+	background-color: #8e91b4;
+}
+
+#title-letter-10 {
+	background-color: #c8e0ea;
+}
+
+#title-letter-10:hover {
+	background-color: #7c7f9e;
+}
+
+.video-col video {
+	position: absolute;
+	right: 15%;
+	top: 30%;
+	width: 35%;
+	z-index: 0;
+	opacity: 0.8;
+}
+
+.portfolio-link {
+	width: 150px;
+	height: 110px;
+	background: #c0b1e1;
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.75rem;
+	padding: 70px 35px 90px 17px;
+	border: 2px solid #ffffff;
+	position: absolute;
+	right: 20%;
+	top: 30%;
+	z-index: 1;
+}
+
+.portfolio-link:hover {
+	background-color: #d2e1b1;
+}
+
+.about-container {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 5%;
+}
+
+.saskia-image {
+	width: 400px;
+}
+
+.portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+	background-color: #474c58;
+	margin: 1%%;
+}
+
+.portfolio .container {
+	margin: auto;
+	width: 270px;
+	height: 270px;
+	background: #c0b1e1;
+	border: 5px solid #c5e0dd;
+	padding: 7px;
+	text-align: center;
+	font-size: 0.85rem;
+}
+
+.container .title-project {
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.contact-section {
+	display: flex;
+	flex-direction: wrap;
+}
+
+.contact-col {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #ffffff;
+	width: 400px;
+	background-color: #c0b1e1;
+	align-content: center;
+}
+
+.image-contact {
+	width: 400px;
+	margin: 10px;
+}
+
+footer {
+	background-color: #c0b1e1;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 576px) {
+	nav a {
+		display: none;
+	}
+	
+	.top-bar .hamburger {
+		display: block;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+		border: 2px solid #474c58;
+		border-radius: 10%;
+		padding: auto 10px;
+		background-color: #b1d2e1;
+	}
+	
+	.top-bar .hamburger:hover {
+		background-color: #ffffff;
+	}
+	
+	main {
+		display: block;
+	}
+	
+	.homepage-vid {
+		display: none;
+	}
+	
+	.portfolio-link {
+		display: none;
+	}
+	
+	.about-container {
+		display: grid;
+	}
+	
+	.about-p {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	
+	.saskia-image {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: scale-down;
+	}
+	
+	.portfolio {
+		display: flex;
+		flex-flow: wrap;
+	}
+	
+	.portfolio .container {
+		width: 100%;
+		margin: 10px;
+	}
+	
+	.contact-section {
+		display: block;
+	}
+	
+	.image-contact {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: scale-down;
+	}
+	
+	footer {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+@media (max-width:768px) {
+	.homepage-vid {
+		display: none;
+	}
+	
+	.portfolio-link {
+		display: none;
+	}
+	
+	.saskia-image {
+        max-width: 240px;
+        max-height: 240px;
+	}
+	
+	.portfolio {
+		display: flex;
+		flex-flow: wrap;
+	}
+	
+	.portfolio .container {
+		width: 100%;
+		margin: 10px;
+	}
+	
+	.image-contact {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: scale-down;
+	}
+	
+	.contact-section {
+		display: block;
+	}
+	
+	footer {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width:992px) {
+	.saskia-image {
+		max-width: 314px;
+		max-height: 314px;
+	}
+	
+	.portfolio {
+		display: flex;
+		flex-flow: wrap;
+	}
+	
+	.image-contact {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: scale-down;
+	}
+}
+
+@media (max-width:1200px) {
+	.saskia-image {
+		max-width: 380px;
+		max-height: 380px;
+	}
+	
+	.portfolio {
+		display: flex;
+		flex-flow: wrap;
+	}
+	
+	.image-contact {
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: scale-down;
+	}
+}
