@@ -353,9 +353,9 @@ footer {
 }
 
 @media (max-width:992px) {
-    .saskia-image {
-        max-width: 314px;
-        max-height: 314px;
+	.saskia-image {
+		max-width: 314px;
+		max-height: 314px;
 	}
 	
 	.portfolio {
@@ -371,9 +371,9 @@ footer {
 }
 
 @media (max-width:1200px) {
-    .saskia-image {
-        max-width: 380px;
-        max-height: 380px;
+	.saskia-image {
+		max-width: 380px;
+		max-height: 380px;
 	}
 	
 	.portfolio {
