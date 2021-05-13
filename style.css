@@ -15,7 +15,6 @@ section {
 	justify-content: space-between;
 }
 
-
 .sw-logo {
 	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 2.5rem;
@@ -50,7 +49,6 @@ main {
 	width: 100%;
 	height: 800px;
 }
-
 
 .titlepage {
 	font-family: 'Montserrat', sans-serif;
@@ -154,11 +152,20 @@ main {
 	background-color: #7c7f9e;
 }
 
+.video-col video {
+	position: absolute;
+	right: 14%;
+	top: 41%;
+	width: 400px;
+	height: 350px;
+	z-index: 0;
+	opacity: 0.8;
+}
+
 .portfolio-link {
 	width: 150px;
 	height: 110px;
 	background: #c0b1e1;
-	border-radius: 50%;
 	text-decoration: none;
 	color: black;
 	font-size: 1.75rem;
@@ -167,7 +174,8 @@ main {
 	border: 2px solid #ffffff;
 	position: absolute;
 	right: 20%;
-	top: 0;
+	top: 30%;
+	z-index: 1;
 }
 
 .portfolio-link:hover {
@@ -209,10 +217,6 @@ main {
 	
 }
 
-.contact-section {
-	
-}
-
 .contact-col {
 	margin: 10px;
 	padding: 10px;
@@ -221,7 +225,6 @@ main {
 	display: grid;
 	align-content: center;
 }
-
 
 .image-contact {
 	width: 400px;
@@ -236,11 +239,7 @@ footer {
 	justify-content: space-between;
 }
 
-
-
-
 @media only screen and (max-width: 576px) {
-	
 	nav a {
 		display: none;
 	}
@@ -261,6 +260,10 @@ footer {
 	
 	main {
 		display: block;
+	}
+	
+	.homepage-vid {
+		display: none;
 	}
 	
 	.portfolio-link {
@@ -307,6 +310,10 @@ footer {
 
 
 @media (max-width:768px) {
+	.homepage-video {
+		display: none;
+	}
+	
 	.portfolio-link {
 		display: none;
 	}
