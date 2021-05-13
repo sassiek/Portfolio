@@ -217,13 +217,19 @@ main {
 	
 }
 
+.contact-section {
+	display: flex;
+	flex-direction: wrap;
+}
+
 .contact-col {
 	margin: 10px;
 	padding: 10px;
 	border: 2px solid white;
+	width: 400px;
 	background-color: #c0b1e1;
-	display: grid;
 	align-content: center;
+	
 }
 
 .image-contact {
@@ -295,6 +301,10 @@ footer {
 		margin: 10px;
 	}
 	
+	.contact-section {
+		display: block;
+	}
+	
 	.image-contact {
 		max-width: 100%;
 		max-height: 100%;
@@ -338,6 +348,10 @@ footer {
 		max-height: 100%;
 		object-fit: scale-down;
     }
+	
+	.contact-section {
+		display: block;
+	}
 	
 	footer {
 		display: block;
