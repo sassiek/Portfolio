@@ -38,7 +38,7 @@ section {
 }
 
 main {
-	background-color:#474c58;
+	background-color: #474c58;
 	color: #ffffff;
 	padding: 5%;
 }
@@ -152,8 +152,6 @@ main {
 	position: absolute;
 	right: 15%;
 	top: 30%;
-	/*width: 400px;
-	height: 350px;*/
 	width: 35%;
 	z-index: 0;
 	opacity: 0.8;
@@ -314,7 +312,7 @@ footer {
 
 
 @media (max-width:768px) {
-	.homepage-video {
+	.homepage-vid {
 		display: none;
 	}
 	
@@ -325,7 +323,7 @@ footer {
 	.saskia-image {
         max-width: 240px;
         max-height: 240px;
-    }
+	}
 	
 	.portfolio {
 		display: flex;
@@ -341,7 +339,7 @@ footer {
 		max-width: 100%;
 		max-height: 100%;
 		object-fit: scale-down;
-    }
+	}
 	
 	.contact-section {
 		display: block;
@@ -358,7 +356,7 @@ footer {
     .saskia-image {
         max-width: 314px;
         max-height: 314px;
-    }
+	}
 	
 	.portfolio {
 		display: flex;
@@ -369,20 +367,20 @@ footer {
 		max-width: 100%;
 		max-height: 100%;
 		object-fit: scale-down;
-    }
+	}
 }
 
 @media (max-width:1200px) {
     .saskia-image {
         max-width: 380px;
         max-height: 380px;
-    }
+	}
 	
 	.portfolio {
 		display: flex;
 		flex-flow: wrap;
 	}
-		
+	
 	.image-contact {
 		max-width: 100%;
 		max-height: 100%;
