@@ -4,8 +4,6 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	margin: 0px;
-	padding: 0px;
 }
 
 section {
@@ -47,11 +45,9 @@ main {
 
 .homepage {
 	width: 100%;
-	height: 800px;
 }
 
 .titlepage {
-	font-family: 'Montserrat', sans-serif;
 	margin: 5%;
 	font-size: 1.75rem;
 	position: relative;
@@ -156,8 +152,9 @@ main {
 	position: absolute;
 	right: 15%;
 	top: 30%;
-	width: 400px;
-	height: 350px;
+	/*width: 400px;
+	height: 350px;*/
+	width: 35%;
 	z-index: 0;
 	opacity: 0.8;
 }
@@ -169,7 +166,6 @@ main {
 	text-decoration: none;
 	color: #000000;
 	font-size: 1.75rem;
-	font-family: 'Montserrat', sans-serif;
 	padding: 70px 35px 90px 17px;
 	border: 2px solid #ffffff;
 	position: absolute;
@@ -214,7 +210,6 @@ main {
 .container .title-project {
 	font-size: 1.1rem;
 	text-align: center;
-	
 }
 
 .contact-section {
@@ -229,7 +224,6 @@ main {
 	width: 400px;
 	background-color: #c0b1e1;
 	align-content: center;
-	
 }
 
 .image-contact {
@@ -383,6 +377,7 @@ footer {
         max-width: 380px;
         max-height: 380px;
     }
+	
 	.portfolio {
 		display: flex;
 		flex-flow: wrap;
@@ -392,4 +387,5 @@ footer {
 		max-width: 100%;
 		max-height: 100%;
 		object-fit: scale-down;
+	}
 }
